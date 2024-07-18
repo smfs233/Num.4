@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Books Summary</title>
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b2419;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #e9e9e6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn {
+    background-color: #293b35;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d6eadf;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #e7f6e9}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#home">主页</a></li>
+  <div class="dropdown">
+    <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#" class="dropbtn">财富</a>
+    <div class="dropdown-content">
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">纳瓦尔宝典</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">百万富翁快车道</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">金钱心理学</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">深度工作</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">一周工作4小时</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">掌控一切</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">高效能人士的7个习惯</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">创造时间</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">绝对自控</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">从优秀到卓越</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">超级激励者</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#" class="dropbtn">历史</a>
+    <div class="dropdown-content">
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">人类简史</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">全球通史</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">国史大纲</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#" class="dropbtn">心理学</a>
+    <div class="dropdown-content">
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">社会心理学</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">变态心理学</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">心理学与生活</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">影响力</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">蛤蟆先生去看心理医生</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">被讨厌的勇气</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">为什么没人早点告诉我</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">认知天性</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#" class="dropbtn">经济学</a>
+    <div class="dropdown-content">
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">小岛经济学</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">曼昆微观经济学</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">原则</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">大而不倒</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">巴菲特致股东的信</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">魔鬼经济学</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">国富论</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">小狗钱钱</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">22条商规</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">CEI的四大迷思</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">资本论</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">新媒体营销圣经</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#" class="dropbtn">小说类</a>
+    <div class="dropdown-content">
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">哈利波特系列！</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">瑞克与莫蒂系列！</a>
+      <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">暮光之城系列</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">好兆头系列</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">杀死一只知更鸟</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">当你像鸟飞往你的山</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">呼啸山庄</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">德米安</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">百年孤独</a>
+        <a href="file:///D:/%E8%BD%AF%E4%BB%B6/runoob-trycss_dropdown_navbar.html#">鲁迅作品集</a>
+    </div>
+  </div>
+</ul>
+
+<div style="
+    background-color:#b1cbc2;
+    width:100%;
+    height:auto;
+    padding:10px;
+    border:5px solid #aeaeae;
+    ">
+<h1>WeIcome!</h1>
+<h2>这是一个书单。<br>包括我读过觉得很赞的，还有没读过准备读的
+</h2>
+<p>其实这里面一半多是我没读过的（目移……）</p>
+<p>那么就让我列一下我强推的</p>
+    <p>首先是！<b>哈利波特系列！</b>（鼓掌鼓掌）</p>
+    <p>其次是我觉得很有帮助的书，<b>《纳瓦尔宝典》</b>，其中有非常有建设性的建议</p>
+    <p>我最喜欢的有关经济学的书就是<b>《小岛经济学》</b>，讲得宇宙无敌超级浅显易懂，也特别有趣</p>
+    <p>还有<b>《百万富翁快车道》</b>，作者的观点非常明晰透彻，是作者的亲身经历，不过我没找到中文版</p>
+    <p>啊，还有一本黑塞的<b>《德米安》</b>，这本书让我感觉有种清冷的氛围，很喜欢</p>
+    <p>嗯，差不多就这些</p>
+    <p>:p</p>
+</div>
+
+<div style="
+    background-color:#232323;
+    color:#a4a4a4;
+    width:100%;
+    height:60px;
+    text-align:center;
+    padding:10px;
+    ">
+    一个防伪 | smfs
+</div>
+</body></html>
